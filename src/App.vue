@@ -10,6 +10,7 @@
     },
     data() {
       return {
+        navList: ["HOME", "ABOUT", "SERVICES", "PROCESS", "TESTIMONIALS"],
 
       }
 
@@ -19,7 +20,7 @@
 
 <template>
   <TheHeader />
-  <MyJumbotron />
+  <MyJumbotron :navList="navList"/>
 </template>
 
 <style lang="scss">

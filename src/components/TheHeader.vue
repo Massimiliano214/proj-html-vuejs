@@ -9,7 +9,8 @@ export default {
 <div class="container-fluid myBg">
     <div class="container d-flex justify-content-between align-items-center">
         <div class="hours">
-            <span>Open Hours Mon - Sat - 9:00 - 18:00</span>
+            <i class="fa-solid fa-clock"></i>
+            <span class="px-1">Open Hours Mon - Sat - 9:00 - 18:00</span>
         </div>
 
         <div class="contacts d-flex align-items-cente">
