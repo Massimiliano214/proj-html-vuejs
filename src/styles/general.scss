@@ -1,5 +1,35 @@
+@use 'bootstrap';
+
+// colors
+
+$cube-black: #121117;
+$cube-white: #ffffff;
+$cube-darkGray: #69696d;
+$cube-darkGreen: #038384;
+$cube-lightGray: #bcbdbd;
+$cube-lightGreen: #52bbbb;
+$cube-mustard: #bd9542;
+$cube-brown: #74370e;
+
+$cut-gray: #e6ece8;
+$cut-black: #191c1e;
+$cut-brown: #604f42;
+$cut-green: #609d9f;
+$cut-darkGreen: #59838c;
+
+$design-darkGreen: #16928e;
+$design-darkGreen: #719a9c;
+$design-sea: #5d412a;
+$design-darkGray: #403a36;
+$design-lightGreen: #7fd2d5;
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+
+h2 {
+    color: red;
 }
