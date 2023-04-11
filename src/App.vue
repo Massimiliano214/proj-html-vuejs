@@ -2,11 +2,13 @@
 
   import TheHeader from "./components/TheHeader.vue";
   import MyJumbotron from "./components/MyJumbotron.vue";
+  import MyDescription from "./components/MyDescription.vue";
 
   export default {
     components: {
       TheHeader,
       MyJumbotron,
+      MyDescription,
     },
     data() {
       return {
@@ -19,8 +21,20 @@
 </script>
 
 <template>
-  <TheHeader />
-  <MyJumbotron :navList="navList"/>
+  <header>
+    <TheHeader />
+  </header>
+  <main>
+    <section id="jumbotron">
+      <MyJumbotron :navList="navList"/>
+    </section>
+    
+    <section id="siteDescription">
+      <MyDescription></MyDescription>
+    </section>
+    
+  </main>
+  
 </template>
 
 <style lang="scss">

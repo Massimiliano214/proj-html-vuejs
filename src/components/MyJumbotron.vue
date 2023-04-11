@@ -58,7 +58,7 @@
             background-position: center;
 
             .imageFilters {
-                background-color: rgba($color: #000000, $alpha: 0.5);
+                background-color: rgba($color: black, $alpha: 0.65);
                 height: 100%;
             }
         }
