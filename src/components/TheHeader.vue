@@ -57,6 +57,7 @@ export default {
             }
             .iconsGroup, .phone, .email {
                 padding: 20px;
+                padding-right: 0;
             }
             
         }
