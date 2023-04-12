@@ -76,7 +76,7 @@
 </template>
 
 <style scoped lang="scss">
-     @import "../styles/general.scss";
+    @import "../styles/general.scss";
     .container {
         h6 {
             color: $cube-darkGreen;

@@ -13,7 +13,7 @@
             <div class="imageFilters">
                 <div class="container d-flex align-items-center justify-content-between">
                     <div class="imageCompany">
-                        <img src="../assets/img/true-next-gen-performance.png" alt="">
+                        <img src="../assets/img/true-next-gen-performance.png" alt="logo azienda">
 
                     </div>
 

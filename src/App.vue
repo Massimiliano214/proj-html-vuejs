@@ -8,6 +8,7 @@
   import StatsCompany from "./components/StatsCompany.vue";
   import CustomerFeed from "./components/CustomerFeed.vue";
   import FormsSector from "./components/FormsSector.vue";
+  import FooterLinks from "./components/FooterLinks.vue";
 
   export default {
     components: {
@@ -19,6 +20,7 @@
       StatsCompany,
       CustomerFeed,
       FormsSector,
+      FooterLinks,
     },
     data() {
       return {
@@ -62,6 +64,10 @@
     <section id="contactUs">
       <FormsSector />
     </section>
+
+    <footer>
+      <FooterLinks />
+    </footer>
   </main>
   
 </template>
