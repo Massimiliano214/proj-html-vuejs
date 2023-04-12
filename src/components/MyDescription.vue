@@ -25,7 +25,7 @@
             <p class="mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates quisquam ea ratione aspernatur?</p>
 
             <ul>
-                <li v-for="lorem in 5">Lorem ipsum dolor sit amet.</li>
+                <li v-for="(lorem, index) in 5" :key="index">Lorem ipsum dolor sit amet.</li>
             </ul>
         </div>
 
@@ -64,6 +64,13 @@
                 <div class="veichleDesc d-flex justify-content-center flex-column">
                     <h3>Heavy</h3>
                     <span>Max Weight 24000Kg</span>
+                </div>
+                
+            </div>
+
+            <div class="certifications d-flex">
+                <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded my-3 mx-1" v-for="(certificate, index) in 2" :key="index">
+                    <img class="certified img-fluid" src="../assets/img/certificate.png" alt="icona di certificazione">
                 </div>
                 
             </div>
@@ -110,8 +117,14 @@
         }
         .veichle {
             background-color: $design-lightGreen;
-            width: 200px;
+            width: 130px;
             padding: 10px;
+        }
+
+        .certifications {
+            .certified {
+                width: 90px;
+            }
         }
     }
 </style>
