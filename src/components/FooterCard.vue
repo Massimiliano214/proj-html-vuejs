@@ -12,28 +12,37 @@
 </script>
 
 <template>
-    <div class="myCard">
-        <h4>About</h4>
-        <div v-for="(item, index) in aboutList" :key="index">
-            <i class="fa-solid fa-chevron-right"></i>
-            <a href="#"> {{ item }}</a>
-        </div>
+    <div class="myCard py-5 px-5">
+        <h4 class="py-3">About</h4>
+        <ul v-for="(item, index) in aboutList" :key="index">
+            <li>
+                <i class="myStyle fa-solid fa-chevron-right"></i>
+                <a href="#"> {{ item }}</a>
+            </li>
+            
+        </ul>
     </div>
 
-    <div class="myCard">
-        <h4>Transport</h4>
-        <div v-for="(item, index) in transportList" :key="index">
-            <i class="fa-solid fa-chevron-right"></i>
-            <a href="#"> {{ item }}</a>
-        </div>
+    <div class="myCard py-5 px-5">
+        <h4 class="py-3">Transport</h4>
+        <ul v-for="(item, index) in transportList" :key="index">
+            <li>
+                <i class="myStyle fa-solid fa-chevron-right"></i>
+                <a href="#"> {{ item }}</a>
+            </li>
+            
+        </ul>
     </div>
 
-    <div class="myCard">
-        <h4>Support</h4>
-        <div v-for="(item, index) in supportList" :key="index">
-            <i class="fa-solid fa-chevron-right"></i>
-            <a href="#"> {{ item }}</a>
-        </div>
+    <div class="myCard py-5 px-5">
+        <h4 class="py-3">Support</h4>
+        <ul v-for="(item, index) in supportList" :key="index">
+            <li>
+               <i class="myStyle fa-solid fa-chevron-right"></i>
+                <a href="#"> {{ item }}</a> 
+            </li>
+            
+        </ul>
     </div>
 
 </template>
@@ -41,4 +50,30 @@
 
 <style scoped lang="scss">
     @import "../styles/general.scss";
+
+    .myCard {
+        width: 22%;
+        background-color: rgba($cube-white, $alpha: 0.1);
+        border-radius: 5px;
+
+        a {
+            text-decoration: none;
+            color: $cube-lightGray;
+        }
+
+        .myStyle {
+            padding-right: 10px;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        ul {
+            padding-left: 0;
+        }
+        h4 {
+            color: $cube-white;
+        }
+    }
 </style>
