@@ -4,6 +4,7 @@
   import MyJumbotron from "./components/MyJumbotron.vue";
   import MyDescription from "./components/MyDescription.vue";
   import ServicesDesc from "./components/ServicesDesc.vue";
+  import LogisticProcedures from "./components/LogisticProcedures.vue";
 
   export default {
     components: {
@@ -11,6 +12,7 @@
       MyJumbotron,
       MyDescription,
       ServicesDesc,
+      LogisticProcedures,
     },
     data() {
       return {
@@ -37,7 +39,10 @@
     
     <section id="mainServices">
       <ServicesDesc />
+    </section>
 
+    <section id="LogicProceds">
+      <LogisticProcedures />
     </section>
   </main>
   

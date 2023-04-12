@@ -118,13 +118,13 @@
         }
         .veichle {
             background-color: $design-lightGreen;
-            width: 130px;
+            width: 110px;
             padding: 10px;
         }
 
         .certifications {
             .certified {
-                width: 90px;
+                width: 80px;
             }
         }
     }
