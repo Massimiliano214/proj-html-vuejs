@@ -5,6 +5,7 @@
   import MyDescription from "./components/MyDescription.vue";
   import ServicesDesc from "./components/ServicesDesc.vue";
   import LogisticProcedures from "./components/LogisticProcedures.vue";
+  import StatsCompany from "./components/StatsCompany.vue";
 
   export default {
     components: {
@@ -13,6 +14,7 @@
       MyDescription,
       ServicesDesc,
       LogisticProcedures,
+      StatsCompany,
     },
     data() {
       return {
@@ -43,6 +45,10 @@
 
     <section id="LogicProceds">
       <LogisticProcedures />
+    </section>
+
+    <section id="StatsCompany">
+      <StatsCompany />
     </section>
   </main>
   
