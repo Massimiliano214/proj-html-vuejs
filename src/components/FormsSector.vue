@@ -131,16 +131,16 @@
         }
 
         .contacts {
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             background-color: rgba($cube-lightGreen, $alpha: 0.5);
-            padding: 20px;
+            padding: 15px;
             border-radius: 50%;
             margin-right: 20px;
         }
 
         .different {
-            padding-left: 23px;
-            width: 64px;
+            padding-left: 18px;
+            width: 50.8px;
         }
     }
 
