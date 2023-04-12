@@ -1,6 +1,11 @@
 <script>
+    import CardFeedback from './CardFeedback.vue';
+
     export default {
-        name: "CustomerFeed"
+        name: "CustomFeed",
+        components: {
+            CardFeedback
+        }
     }
 </script>
 
@@ -12,6 +17,8 @@
             <h2 class="py-3">Trusted <mark>Feedback</mark></h2>
 
             <p>We work intensively in search of ideals that can add up in the lives of out customers. This is what moves us and we are grateful for the recognition.</p>
+
+            <CardFeedback />
         </div>  
     </div>
     
