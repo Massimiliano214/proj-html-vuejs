@@ -3,12 +3,14 @@
   import TheHeader from "./components/TheHeader.vue";
   import MyJumbotron from "./components/MyJumbotron.vue";
   import MyDescription from "./components/MyDescription.vue";
+  import ServicesDesc from "./components/ServicesDesc.vue";
 
   export default {
     components: {
       TheHeader,
       MyJumbotron,
       MyDescription,
+      ServicesDesc,
     },
     data() {
       return {
@@ -33,6 +35,10 @@
       <MyDescription></MyDescription>
     </section>
     
+    <section id="mainServices">
+      <ServicesDesc />
+
+    </section>
   </main>
   
 </template>

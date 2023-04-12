@@ -68,6 +68,7 @@
                 
             </div>
 
+            <h3 class="titleCert">Certifications</h3>
             <div class="certifications d-flex">
                 <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded my-3 mx-1" v-for="(certificate, index) in 2" :key="index">
                     <img class="certified img-fluid" src="../assets/img/certificate.png" alt="icona di certificazione">
@@ -126,5 +127,16 @@
                 width: 90px;
             }
         }
+    }
+
+    .veichleDesc {
+        span {
+            color: $cube-darkGray;
+        }
+    }
+
+    .titleCert {
+        padding-top: 30px;
+        padding-bottom: 0;
     }
 </style>
