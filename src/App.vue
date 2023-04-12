@@ -9,6 +9,7 @@
   import CustomerFeed from "./components/CustomerFeed.vue";
   import FormsSector from "./components/FormsSector.vue";
   import FooterLinks from "./components/FooterLinks.vue";
+  import FooterBottom from "./components/FooterBottom.vue";
 
   export default {
     components: {
@@ -21,6 +22,7 @@
       CustomerFeed,
       FormsSector,
       FooterLinks,
+      FooterBottom
     },
     data() {
       return {
@@ -67,6 +69,8 @@
 
     <footer>
       <FooterLinks />
+
+      <FooterBottom />
     </footer>
   </main>
   
