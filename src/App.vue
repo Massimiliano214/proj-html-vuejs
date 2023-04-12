@@ -6,6 +6,7 @@
   import ServicesDesc from "./components/ServicesDesc.vue";
   import LogisticProcedures from "./components/LogisticProcedures.vue";
   import StatsCompany from "./components/StatsCompany.vue";
+  import CustomerFeed from "./components/CustomerFeed.vue";
 
   export default {
     components: {
@@ -15,6 +16,7 @@
       ServicesDesc,
       LogisticProcedures,
       StatsCompany,
+      CustomerFeed,
     },
     data() {
       return {
@@ -49,6 +51,10 @@
 
     <section id="StatsCompany">
       <StatsCompany />
+    </section>
+
+    <section id="myFeedback">
+      <CustomerFeed />
     </section>
   </main>
   
