@@ -84,6 +84,7 @@
 
         h2 {
             font-weight: bolder;
+            font-size: 3rem;
             mark {
                 color: $cube-darkGreen;
                 background-color: rgba($cube-darkGreen, $alpha: 0.1);

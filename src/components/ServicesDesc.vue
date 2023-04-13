@@ -43,6 +43,10 @@
     .container {
         color: $cube-darkGreen;
 
+        h2 {
+            font-size: 3rem;
+        }
+
         .bold {
             font-weight: bolder;
         }

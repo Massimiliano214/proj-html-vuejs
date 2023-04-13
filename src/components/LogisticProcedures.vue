@@ -63,6 +63,7 @@
     }
 
     h2 {
+        font-size: 3rem;
         padding: 15px;
         font-weight: bolder;
 

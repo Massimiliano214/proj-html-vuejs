@@ -38,6 +38,7 @@
         h2 {
             color: $cube-white;
             font-weight: bolder;
+            font-size: 3rem;
 
             mark {
                 color: $cube-white;

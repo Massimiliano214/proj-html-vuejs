@@ -51,6 +51,7 @@
         }
 
         h2 {
+            font-size: 3rem;
             color: $cube-white;
             font-weight: bolder;
 

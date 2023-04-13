@@ -95,6 +95,7 @@
     }
     h2 {
         font-weight: bolder;
+        font-size: 3rem;
         padding: 20px 0;
         color: black;
     }
