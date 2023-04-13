@@ -8,7 +8,7 @@
     <div class="container my-5 d-flex justify-content-between">
         <div class="leftSection">
             <h6>SEND A MESSAGE</h6>
-            <h2 class="my-4">Get in <mark>Touch</mark></h2>
+            <h2 class="py-4">Get in <mark>Touch</mark></h2>
             
             <div class="py-4">
                 <span>We will respond to your message as soon as possible.</span>

@@ -8,7 +8,7 @@
     <div class="container d-flex py-5">
         <div class="containerLeft">
             <h6>WHO WE ARE</h6>
-            <h2>
+            <h2 class="py-4">
                 
                 <mark class="decorations"><i class="fa-regular fa-gem"></i> Excellence</mark>
                 in Transport

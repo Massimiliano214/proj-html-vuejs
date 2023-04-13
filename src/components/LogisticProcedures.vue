@@ -14,7 +14,7 @@
 
     <div class="container py-5 text-center">
         <h6>HOW IT WORKS IN PRACTICE</h6>
-        <h2><mark>Logistical</mark> Procedure</h2>
+        <h2 class="py-4"><mark>Logistical</mark> Procedure</h2>
 
         <p>We work with innovative methodologies to ensure that the entire delivery process is done from start to finish as planned.</p>
 
@@ -38,7 +38,7 @@
     @import "../styles/general.scss";
     h3 {
         color: $cube-darkGreen;
-        background-color: rgba($color: #c8ffff, $alpha: 1.0);
+        background-color: rgb(217, 236, 237);
         border: 1px solid $design-lightGreen;
         display: inline-block;
         padding: 10px 12px;

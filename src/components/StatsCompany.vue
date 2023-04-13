@@ -8,7 +8,7 @@
     <div class="myJumbo container-fluid py-5 d-flex align-items-center">
         <div class="container text-center">
             <h6>WHAT ARE WE DOING</h6>
-            <h2 class="py-3"><mark>Results</mark> in Numbers</h2>
+            <h2 class="py-4"><mark>Results</mark> in Numbers</h2>
 
             <div class="statSection d-flex justify-content-between py-5">
                 <div class="stat">
